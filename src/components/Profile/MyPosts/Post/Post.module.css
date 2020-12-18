@@ -1,0 +1,15 @@
+.item {
+  color: green;
+  margin-top: 20px;
+}
+
+.item img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.like {
+  color: #000;
+  font-size: 12px;
+}

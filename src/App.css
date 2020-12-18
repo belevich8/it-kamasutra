@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.wrapper {
+  display: grid;
+  grid-template: 60px 1fr / 2fr 10fr;
+  grid-template-areas: 'h h' 'n c';
+  grid-gap: 10px;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper-content {
+  grid-area: c;
+  background-color: lightblue;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 20px;
+}
